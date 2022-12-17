@@ -116,6 +116,7 @@ export default function Header() {
           <a
             href="https://github.com/varshney-himanshu"
             target="_blank"
+            rel="noreferrer"
             className="btn btn--white"
           >
             <FaGithub /> Github
@@ -123,6 +124,7 @@ export default function Header() {
           <a
             href="https://www.linkedin.com/in/varshney-himanshu/"
             target="_blank"
+            rel="noreferrer"
             className="btn btn--white"
           >
             <FaLinkedin /> LinkedIn
@@ -131,6 +133,7 @@ export default function Header() {
           <a
             href="https://twitter.com/_partofice"
             target="_blank"
+            rel="noreferrer"
             className="btn btn--white"
           >
             <FaTwitter /> Twitter
