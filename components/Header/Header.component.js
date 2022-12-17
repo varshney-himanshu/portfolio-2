@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./header.module.scss";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const TOTAL_FLAKE_ELEMENTS = 400;
 
@@ -126,6 +126,14 @@ export default function Header() {
             className="btn btn--white"
           >
             <FaLinkedin /> LinkedIn
+          </a>
+
+          <a
+            href="https://twitter.com/_partofice"
+            target="_blank"
+            className="btn btn--white"
+          >
+            <FaTwitter /> Twitter
           </a>
         </div>
       </div>
